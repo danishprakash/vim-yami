@@ -159,8 +159,10 @@ call s:HL('GitGutterDelete'       , s:red    , 'none' , 'none' )
 call s:HL('GitGutterChangeDelete' , s:dark   , 'none' , 'none' )
 
 " Vimscript
-call s:HL('vimFunc'	    , s:light ,   'none', 'none' )
-call s:HL('vimUserFunc'	, s:light ,   'none', 'none' )
+call s:HL('vimFunc'          , s:light , 'none' , 'none' )
+call s:HL('vimUserFunc'      , s:light , 'none' , 'none' )
+call s:HL('vimLineComment'   , s:gray0 , 'none' , 'none' )
+call s:HL('vimCommentString' , s:gray0 , 'none' , 'none' )
 
 " NERDTree
 call s:HL('NERDTreeCWD'            , s:gray1 , 'none' , 'none' )
