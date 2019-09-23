@@ -123,9 +123,6 @@ call s:HL('Directory'  , s:light , 'none'  , 'none'      )
 call s:HL('FoldColumn'	  , s:light, s:gray3 , 'none' )
 call s:HL('Folded'		  , s:light, s:gray3 , 'none' )
 
-" Parens
-call s:HL('MatchParen'	  , s:dark, s:light , 'none' )
-
 " Popup Menu
 call s:HL('Pmenu'      , s:light , s:gray1 , 'none' )
 call s:HL('PmenuSbar'  , s:dark  , s:gray3 , 'none' )
