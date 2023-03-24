@@ -1,12 +1,12 @@
 " vim:fdm=marker:foldlevel=0
 "
-"   _   _  __ _ _ __ ___  _ 
+"   _   _  __ _ _ __ ___  _
 "  | | | |/ _` | '_ ` _ \| |
 "  | |_| | (_| | | | | | | |
 "   \__, |\__,_|_| |_| |_|_|
-"    __/ |                  
-"   |___/                   
-" 
+"    __/ |
+"   |___/
+"
 " Monochrome dark(闇) theme for Vim
 
 
@@ -20,9 +20,9 @@ let g:colors_name = "yami"
 
 
 " Color palette
-let s:lime   = "#d6ebc7"
+let s:lime   = "#ffb700"
 let s:light  = "#d4d4d5"
-let s:dark   = "#18151c"
+let s:dark   = "#000000"
 let s:gray0  = "#666666"
 let s:gray1  = "#323232"
 let s:gray2  = "#23242a"
